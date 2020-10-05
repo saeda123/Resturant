@@ -1,0 +1,647 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/*common css end*/
+/*main-part start*/
+.main_part {
+    height: 159px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.10);
+}
+
+.menu-cont {
+    display: flex;
+}
+
+.logo {
+    flex-basis: 170px;
+
+}
+
+.logo a {
+    padding-top: 8px;
+}
+
+.main-menu {
+    flex-basis: 1080px;
+}
+
+.main-menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-menu ul li a {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Gentium Book Basic', serif;
+    text-transform: capitalize;
+    padding-left: 55px;
+    line-height: 110px;
+    transition: all linear .4s;
+}
+
+.main-menu ul li a:hover {
+    color: #12bc18;
+}
+
+
+/*main-part end*/
+
+
+/*banner-part start*/
+.banner-part {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 240px 0 145px;
+    background-attachment: fixed;
+}
+
+.banner-text {
+    text-align: center;
+}
+
+.banner-text h1 {
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    padding: 0 100px;
+}
+
+.banner-text img {
+    display: block;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+.banner-text a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #fff;
+    padding: 20px 60px;
+    margin-right: 30px;
+    transition: all linear .4s;
+}
+
+.banner-text a:hover {
+    background-color: rgba(37, 31, 16, 0.7);
+    border-color: rgba(37, 31, 16, 0.7);
+}
+
+
+/*banner-part end*/
+/*food-part start*/
+.food-part {
+    padding: 0 95px 85px 209px;
+}
+
+.food-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.food-main {
+    display: flex;
+    text-align: center;
+}
+
+.food-text {
+    flex-basis: 540px;
+    margin-right: 29px;
+    padding-top: 108px;
+
+}
+
+.food-text h2 {
+    color: #cc9900;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+}
+
+.food-text a {
+    padding: 18px 0 30px;
+}
+
+.food-text a img {
+    padding-right: 97px;
+}
+
+.food-text p {
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 24px;
+    padding: 0 30px 45px;
+
+}
+
+.food-text img {
+    padding-left: 80px;
+}
+
+.food-img {
+    padding-top: 75px;
+    flex-basis: 650px;
+    padding-right: 95px;
+
+}
+
+.food-img img {
+    width: 100%;
+
+}
+
+
+
+/*food-part end*/
+/*ingrideient-part start*/
+.ingridient-part {
+    background: url(../images/banner2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+
+}
+
+.ingridient-main {
+    flex-basis: 570px;
+    background: rgba(15, 19, 18, 0.67);
+    margin-left: 640px;
+    text-align: center;
+    padding: 84px 84px 79px;
+    transition: all linear .4s;
+}
+
+.ingridient-main:hover {
+    box-shadow: 0 0 10px rgba(211, 168, 168, 0.9);
+}
+
+.ingridient-img {
+    display: flex;
+
+}
+
+.ingridient-img img {
+    flex-basis: 30%;
+    margin: 70px 15px 0;
+    margin-right: 25px;
+}
+
+.ingridient-text h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+}
+
+.ingridient-text img {
+    padding: 16px 0 25px;
+}
+
+.ingridient-text p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 24px;
+
+}
+
+
+/*ingrideient-part end*/
+
+
+/*about-part start*/
+
+.about-part {
+    padding: 106px 434px 100px;
+}
+
+.about_cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-main-one {
+    flex-basis: 430px;
+    margin-right: 160px;
+
+
+}
+
+.about-main-two {
+    flex-basis: 430px;
+
+}
+
+.about-head {
+    text-align: center;
+}
+
+.about-head h2 {
+    color: #cc9900;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+
+}
+
+.about-head img {
+    padding: 16px 0 28px;
+}
+
+.about-inner {
+    padding-bottom: 35px;
+}
+
+.about-inner h4 {
+    color: #c89f2d;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    border-bottom: 1px solid #e1d5ab;
+    padding-bottom: 12px;
+}
+
+.about-inn h4 span:first-child {
+    padding-left: 284px;
+}
+
+.about-inner h4 span {
+    padding-left: 208px;
+}
+
+.about-inner p {
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    padding-top: 15px;
+}
+
+.about-bottom .about-inn h4 span:first-child {
+    padding-left: 243px;
+}
+
+.about-bottom .about-inner h4 span {
+    padding-left: 258px;
+}
+
+.about-bottom {
+    margin-top: 20px;
+}
+
+.about-main-two .about-inn h4 span:first-child {
+    padding-left: 278px;
+}
+
+.about-main-two .about-inner h4 span {
+    padding-left: 252px;
+}
+
+.about-footer {
+    padding-top: 20px;
+}
+
+.about-footer .about-inn h4 {
+    color: #c89f2d;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    border-bottom: 1px solid #e1d5ab;
+    padding-bottom: 12px;
+}
+
+.about-footer .about-inn p {
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    padding-top: 15px;
+    margin-bottom: 35px;
+
+}
+
+.about-footer .one h4 span:first-child {
+    padding-left: 176px;
+}
+
+.about-footer .two h4 span:first-child {
+    padding-left: 249px;
+}
+
+.about-footer .three h4 span:first-child {
+    padding-left: 232px;
+}
+
+.about-footer .four h4 span:first-child {
+    padding-left: 285px;
+}
+
+
+
+/*about-part end*/
+/*guest-part start*/
+.guest-part {
+    background: url(../images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+
+
+}
+
+.guest_cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.guest-main {
+    width: 600px;
+    background: rgba(0, 0, 0, 0.67);
+    text-align: center;
+    padding: 75px 60px 100px;
+    margin-left: 280px;
+    transition: all linear .4s;
+}
+
+.guest-main:hover {
+    box-shadow: 0 0 10px rgba(30, 173, 11, 0.9);
+}
+
+.guest-head h2 {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+}
+
+.guest-inner p {
+    color: #dde0df;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Gentium Book Basic', serif;
+    line-height: 45px;
+    padding-bottom: 17px;
+    position: relative;
+}
+
+.guest-inner p i {
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+.guest-inner span {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 45px;
+
+
+}
+
+.guest-head img {
+    padding: 20px 0;
+}
+
+
+/*guest-part end*/
+/*form-part start*/
+.form-part {
+    padding: 104px 0;
+
+}
+
+.form-main {
+    display: flex;
+    margin-right: 90px;
+    margin-left: 40px;
+
+}
+
+.img-part {
+    flex-basis: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+}
+
+.img1 {
+    margin-right: 30px;
+}
+
+.img1 img {
+    width: 100%;
+}
+
+.img2 img {
+    width: 100%;
+}
+
+.text-part {
+    text-align: center;
+    flex-basis: 450px;
+}
+
+.text-part h2 {
+    color: #cc9900;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+}
+
+.text-part img {
+    padding: 17px 0 25px;
+}
+
+.text-part p {
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+
+.text-part p span {
+    display: block;
+    padding-top: 10px;
+}
+
+.text-inner {
+    text-align: left;
+}
+
+.text-inner {
+    display: flex;
+}
+
+.text-inner form input {
+    margin-bottom: 10px;
+    padding: 12px 15px 13px 15px;
+    margin-top: 7px;
+    margin-right: 13px;
+}
+
+.text-inner form label {
+    color: #c9a131;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+.text-inner form input::placeholder {
+    color: #7c7c7c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'OpenSans', sans-serif;
+    font-style: italic;
+}
+
+.text-part a {
+    background: #c9a131;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px 66px;
+    transition: all linear .4s;
+    --mz--transition: all linear .4s;
+    --op--transition: all linear .4s;
+    --ms--transition: all linear .4s;
+    --webkit--transition: all linear .4s;
+    
+}
+
+.text-part a:hover {
+    color: darkblue;
+    background-color: crimson;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+
+/*form-part end*/
+/*footer-part start*/
+.footer-part {
+    padding: 60px 0 73px;
+    background: #191919;
+}
+
+.footer-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-text {
+    flex-basis: 410px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.foot-mar {
+    margin-right: 0;
+}
+
+.second {
+    margin-right: 100px;
+    flex-basis: 300px;
+}
+
+.footer-text h4 {
+    color: #fefefe;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    ;
+
+}
+
+.footer-text img {
+    padding: 20px 0;
+}
+
+.footer-text p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    padding: 0 40px;
+
+}
+
+.second a {
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.second a i {
+    padding: 5px;
+    transition: all linear .4s;
+}
+
+.foot-mar {
+    flex-basis: 340px;
+}
+
+.foot-mar a {
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.foot-mar a i {
+    padding: 5px;
+    transition: all linear .4s;
+}
+
+.second a i:hover {
+    color: #ff2020;
+}
+
+.foot-mar a i:hover {
+    color: #ff2020;
+}
+
+
+/*footer-part end*/
